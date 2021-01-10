@@ -21,3 +21,13 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# JEnv configuration for Java
+.java-version
+
+# IDEA files
+scope-functions.iml
+.idea
+
+# Maven files
+target
