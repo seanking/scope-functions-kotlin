@@ -67,7 +67,7 @@ class ScopeFunctionTest {
     @Test
     fun `should use _this_ as object reference and return lambda result using _with_ function`() {
         // Given
-        val numbers = mutableListOf<Int>(1, 2)
+        val numbers = mutableListOf(1, 2)
 
         // When
         val count = with(numbers) {
